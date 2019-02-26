@@ -24,7 +24,7 @@
 	  </mvc:message-converters>  
    </mvc:annotation-driven>
    
-   <dubbo:application name="zoo-operator-web"/>
+   <dubbo:application name="zoo-operator-web1"/>
    <dubbo:registry address="zookeeper://192.168.154.144:2181"></dubbo:registry>
    <dubbo:annotation package="com.zoo.controller"/>
 	

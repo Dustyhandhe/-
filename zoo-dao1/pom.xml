@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.zoo</groupId>
-            <artifactId>zoo-pojo</artifactId>
+            <artifactId>zoo-pojo1</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -94,6 +94,27 @@
                 <includes>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory><!--mapper-->
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <!-- 上面的配置导致src/main/resources的所有文件都不能被扫描，因此还要配多一个 -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                    <include>**/static/**</include>
+                    <include>**/*.js</include>
+                    <include>**/*.css</include>
+                    <include>**/*.json</include>
                 </includes>
                 <filtering>false</filtering>
             </resource>

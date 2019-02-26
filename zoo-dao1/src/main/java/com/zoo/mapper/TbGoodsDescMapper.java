@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbGoodsDesc;
 import com.zoo.pojo.TbGoodsDescExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbGoodsDescMapper {
     int countByExample(TbGoodsDescExample example);

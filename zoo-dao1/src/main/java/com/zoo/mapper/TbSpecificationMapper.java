@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbSpecification;
 import com.zoo.pojo.TbSpecificationExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbSpecificationMapper {
     int countByExample(TbSpecificationExample example);

@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbBrand;
 import com.zoo.pojo.TbBrandExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbBrandMapper {
     int countByExample(TbBrandExample example);

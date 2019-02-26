@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbProvinces;
 import com.zoo.pojo.TbProvincesExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbProvincesMapper {
     int countByExample(TbProvincesExample example);

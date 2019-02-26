@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbSeckillGoods;
 import com.zoo.pojo.TbSeckillGoodsExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbSeckillGoodsMapper {
     int countByExample(TbSeckillGoodsExample example);

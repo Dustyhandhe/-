@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbContentCategory;
 import com.zoo.pojo.TbContentCategoryExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbContentCategoryMapper {
     int countByExample(TbContentCategoryExample example);

@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbSeckillOrder;
 import com.zoo.pojo.TbSeckillOrderExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbSeckillOrderMapper {
     int countByExample(TbSeckillOrderExample example);

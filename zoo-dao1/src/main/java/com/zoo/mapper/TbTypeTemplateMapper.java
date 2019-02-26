@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbTypeTemplate;
 import com.zoo.pojo.TbTypeTemplateExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbTypeTemplateMapper {
     int countByExample(TbTypeTemplateExample example);

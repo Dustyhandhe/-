@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbAreas;
 import com.zoo.pojo.TbAreasExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbAreasMapper {
     int countByExample(TbAreasExample example);

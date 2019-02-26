@@ -1,8 +1,10 @@
 package com.zoo.service;
 
+import com.zoo.entity.PageResult;
 import com.zoo.pojo.TbBrand;
 
 import java.util.List;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,4 +15,8 @@ import java.util.List;
  */
 public interface BrandService {
     List<TbBrand> findAll();
+    /*
+     * 分页查找
+     */
+    PageResult findByPage(int currentPage,int pageSize);
 }

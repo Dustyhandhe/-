@@ -2,9 +2,8 @@ package com.zoo.mapper;
 
 import com.zoo.pojo.TbPayLog;
 import com.zoo.pojo.TbPayLogExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbPayLogMapper {
     int countByExample(TbPayLogExample example);

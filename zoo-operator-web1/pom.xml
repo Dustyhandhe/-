@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.zoo</groupId>
-            <artifactId>zoo-operator-interface</artifactId>
+            <artifactId>zoo-operator-interface1</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
